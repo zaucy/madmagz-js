@@ -1,6 +1,6 @@
 {
   "name": "madmagz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unofficial madmagz.com JavaScript API",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
