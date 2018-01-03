@@ -1,0 +1,27 @@
+{
+  "name": "madmagz",
+  "version": "0.0.1",
+  "description": "Unofficial madmagz.com JavaScript API",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc",
+    "test": "ts-mocha src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaucy/madmagz-js.git"
+  },
+  "author": "Ezekiel Warren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaucy/madmagz-js/issues"
+  },
+  "homepage": "https://github.com/zaucy/madmagz-js#readme",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "mocha": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
