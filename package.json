@@ -5,9 +5,8 @@
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "tsc",
-    "test": "ts-mocha src/**/*.spec.ts"
+    "test": "ts-mocha src/**/*.spec.ts",
+    "prepublishOnly": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "devDependencies": {
     "@types/node": "^8.5.2",
     "mocha": "^4.1.0",
+    "ts-mocha": "^1.1.0",
     "typescript": "^2.6.2"
   }
 }
