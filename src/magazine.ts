@@ -1,6 +1,6 @@
 import {MadMagzBaseAPI} from "./base";
 
-interface MadMagzMagazineThumbnails {
+export interface MadMagzMagazineThumbnails {
 	className: string;
 	cssPath: string;
 	cssSelfhostedUrl: string;
